@@ -28,7 +28,7 @@ body{
     justify-content: space-between;
     width:350px;
 }
-    
+
 
 .option-container{
     display: flex;
@@ -79,6 +79,12 @@ a{
     display: flex;
 }
 
+footer{
+    position: fixed;
+    bottom: 0.5px;
+    left:50%;
+    transform: translate(-50%);
+}
 @media screen and (max-width: 650px) {
     .option-container{
         flex-direction: column;
